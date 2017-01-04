@@ -4,7 +4,7 @@ import {div, h2, makeDOMDriver} from '@cycle/dom';
 import {makeHTTPDriver} from '@cycle/http';
 
 function main(sources) {
-  const searchRequest$ = xs.periodic(1000)
+  const request$ = xs.periodic(1000)
     .mapTo({
       url: 'http://localhost:3000',
       category: 'api',
@@ -24,7 +24,7 @@ function main(sources) {
 
   return {
     DOM: vtree$,
-    HTTP: searchRequest$
+    HTTP: request$
   };
 }
 
