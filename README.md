@@ -16,4 +16,4 @@ npm run start
 
 You should see something like this:
 
-![example](https://raw.githubusercontent.com/ivanjov/cycle-js-http-tutorial/master/example.gif)
+![example](https://raw.githubusercontent.com/IvanJov/cycle-js-http-tutorial/master/example.gif)
