@@ -10,7 +10,6 @@ function main(sources) {
       category: 'api',
     });
 
-  // Convert the stream of HTTP responses to virtual DOM elements.
   const vtree$ = sources.HTTP.select('api')
     .flatten()
     .map(res => res.body)
