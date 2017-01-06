@@ -4,7 +4,7 @@ This is the code for tutorial posted on [http://ivanjov.com/working-with-http-st
 ## Running the app
 #### Clone the code 
 ```
-git clone https://github.com/IvanJov/cycle-js-http-tutorial.git
+git clone https://github.com/IvanJov/cycle-js-http-tutorial.git && cd cycle-js-http-tutorial
 ```
 
 #### Run app
