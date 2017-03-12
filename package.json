@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/IvanJov/cycle-js-http-tutorial.git"
   },
-  "author": "",
+  "author": "Ivan Jovanovic <ivanjov96@gmail.com> (http://github.com/ivanjov)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IvanJov/cycle-js-http-tutorial/issues"
